@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/b935d5b609.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="header">
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <span class="red-letter">R</span>UDOLF.
+            </div>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        
+        <div class="header-text">
+            <p>A UX/UI Designer</p>
+            <h1>Hi, I'm <span class="name">Rudolf</span><br>Junior From Ghana</h1>
+        </div>
+    </div>
+</div>
+
+<!-- About Section -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="assets/imgs/setor-removebg-preview.png" alt="Rudolf">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I’m Rudolf, a UX designer focused on creating intuitive digital experiences...</p>
+
+                <!-- Tab Titles -->
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills', event)">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience', event)">Experience</p>
+                    <p class="tab-links" onclick="opentab('education', event)">Education</p>
+                </div>
+                
+                <!-- Tab Contents -->
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UX/UI</span><br>Web Designing/Freelancing</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>Freelancing</span><br>Building Websites</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2025-current</span><br>UX/UI Designer at HO TECHNICAL UNIVERSITY</li>
+                        <li><span>2024-2025</span><br>Team Lead at Nunya Solutions Company</li>
+                        <li><span>2024-2025</span><br>Internship at Nunya Solutions Company</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024</span><br>First Term Training at the UNIVERSITY</li>
+                        <li><span>2024</span><br>Front-end Developer</li>
+                        <li><span>2025</span><br>A Freelancer & Intern Student</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--services-->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>UX/UI Design</h2>
+                <p>I design user-friendly, responsive, and visually appealing websites that align with your brand. My focus is on aesthetics, functionality, and seamless user experience to bring your vision to life</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Web Design</h2>
+                <p>I create visually stunning, user-friendly, and responsive websites tailored to your brand. My web design approach focuses on aesthetics, functionality, and seamless user experience to ensure your website stands out. Whether it's a portfolio, business website, or e-commerce platform, I bring creativity and expertise to turn your vision into reality.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Freelancer</h2>
+                <p>As a freelancer, I offer creative and reliable web design solutions tailored to your needs. From portfolios to business sites, I bring expertise and flexibility to deliver high-quality results.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="assets\imgs\img2.jpg">
+                <div class="layer">
+                    <h3>Hospital Management System</h3>
+                    <p>A management system that help monitor day to day activities in a Hospital</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="assets\imgs\img3.jpg">
+                <div class="layer">
+                    <h3>ProDesk247 website</h3>
+                    <p>A product website that showcase the sells activities of a Tech Company named ProDesk247</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="assets\imgs\img1.jpg">
+                <div class="layer">
+                    <h3>Ecommernce Wedpage</h3>
+                    <p>A webpage that showcase the ultimate online shopping market for named Junno Shops</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="btn">See More</a>
+
+    </div>
+</div>
+
+<!--Contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>rudolfkobbysetor@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>0533299020/0500489864</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="#" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email"name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" row="6 " placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright &copy; 2025 <i class="fa-solid fa-heart"></i>Rudolf Kobby Setor</p> 
+    </div>
+</div>
+
+<!-- JavaScript--> 
+<script>
+    function opentab(tabname, event) {
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        // Remove active class from all tabs and content
+        for (let tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+
+        for (let tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+
+        // Ensure event is defined before using it
+        if (event && event.currentTarget) {
+            event.currentTarget.classList.add("active-link");
+        }
+
+        // Show the corresponding tab content
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById('sidemenu');
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzRzzDOvpKA0Mo8njZTv-vifwzpRdL-c0bGIw9akxjlDKk-oV99THwfOdr_9UJszDfM_w/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = 'Data sent successfully'
+            setTimeout(function(){
+                msg.innerHTML = '';
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
